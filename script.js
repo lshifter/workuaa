@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const telegramLinks = [
         "https://t.me/+HXfwanBPTP02MTBi",
-        "https://t.me/+cNUoYofm3dMxOGNi",
+        "https://t.me/+LkynEFY4C49kZTUy",
         "https://t.me/+6YWrsOwEe8k0NjNi",
         "https://t.me/+_-JX2UzLo8wxMDBi",
         "https://t.me/+cjiJAbno418yZjky"
