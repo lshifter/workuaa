@@ -3,84 +3,225 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Робота в Україні</title>
+    <title>Робота в Україні - Найкращі віддалені вакансії</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="logo">Work.ua</div>
+            <div class="logo">
+                <span class="logo-icon">💼</span>
+                Work.ua
+                <span class="verified-badge">✓</span>
+            </div>
             <nav>
                 <ul>
-                    <li><a href="#">Знайти роботу</a></li>
-                    <li><a href="#">Створити резюме</a></li>
-                    <li><a href="#">Для роботодавців</a></li>
+                    <li><a href="#">🔍 Знайти роботу</a></li>
+                    <li><a href="#">📄 Створити резюме</a></li>
+                    <li><a href="#">🏢 Для роботодавців</a></li>
+                    <li><a href="#">📊 Статистика</a></li>
                 </ul>
             </nav>
             <div class="search-bar">
-                <input type="text" placeholder="Пошук вакансій...">
-                <button>Знайти</button>
+                <input type="text" placeholder="Пошук віддалених вакансій...">
+                <button>🔍 Знайти</button>
             </div>
         </div>
     </header>
+    
     <main>
         <section class="hero-section">
             <div class="container">
-                <h1>Знайди роботу своєї мрії</h1>
-                <p>Тисячі вакансій від провідних компаній</p>
+                <h1>🚀 Знайди роботу своєї мрії онлайн</h1>
+                <p>Понад 10,000+ перевірених віддалених вакансій від надійних роботодавців</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2,847</span>
+                        <span class="stat-label">Активних вакансій</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">15,623</span>
+                        <span class="stat-label">Успішних працевлаштувань</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Задоволених користувачів</span>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <section class="trust-indicators">
+            <div class="container">
+                <div class="trust-badges">
+                    <div class="trust-badge">
+                        <span class="badge-icon">🛡️</span>
+                        <span>Перевірені роботодавці</span>
+                    </div>
+                    <div class="trust-badge">
+                        <span class="badge-icon">💰</span>
+                        <span>Гарантована оплата</span>
+                    </div>
+                    <div class="trust-badge">
+                        <span class="badge-icon">⚡</span>
+                        <span>Швидке працевлаштування</span>
+                    </div>
+                    <div class="trust-badge">
+                        <span class="badge-icon">🌍</span>
+                        <span>100% віддалена робота</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         <section class="job-listings">
             <div class="container">
-                <h2>Актуальні вакансії</h2>
+                <h2>🔥 Топ віддалених вакансій сьогодні</h2>
                 <div class="job-card-grid">
-                    <div class="job-card">
-                        <h3>Перегляд роликів</h3>
-                        <p class="salary">1200 грн/день</p>
-                        <p class="company">Приватна компанія</p>
-                        <p class="location">Віддалено</p>
-                        <p class="description">Перегляд відеороликів на різних платформах. Гнучкий графік, можливість працювати з будь-якої точки світу.</p>
-                        <a href="#" class="apply-button">Відгукнутись</a>
+                    <div class="job-card featured">
+                        <div class="job-header">
+                            <h3>📺 Перегляд відеоконтенту</h3>
+                            <span class="featured-badge">ТОП</span>
+                        </div>
+                        <p class="salary">💰 1,200 грн/день</p>
+                        <p class="company">🏢 MediaTech Ukraine</p>
+                        <p class="location">🌍 Віддалено (вся Україна)</p>
+                        <p class="description">Перегляд та оцінка відеоконтенту на популярних платформах. Гнучкий графік, можливість працювати з будь-якої точки світу. Досвід не потрібен.</p>
+                        <div class="job-tags">
+                            <span class="tag">Без досвіду</span>
+                            <span class="tag">Гнучкий графік</span>
+                            <span class="tag">Щоденна оплата</span>
+                        </div>
+                        <a href="#" class="apply-button">✨ Відгукнутись зараз</a>
                     </div>
+                    
                     <div class="job-card">
-                        <h3>Написання відгуків</h3>
-                        <p class="salary">2100 грн/день</p>
-                        <p class="company">Маркетингова агенція</p>
-                        <p class="location">Віддалено</p>
-                        <p class="description">Написання коротких відгуків про товари та послуги. Потрібна грамотність та креативність.</p>
-                        <a href="#" class="apply-button">Відгукнутись</a>
+                        <div class="job-header">
+                            <h3>✍️ Контент-модератор відгуків</h3>
+                            <span class="urgent-badge">ТЕРМІНОВО</span>
+                        </div>
+                        <p class="salary">💰 2,100 грн/день</p>
+                        <p class="company">🏢 Digital Marketing Pro</p>
+                        <p class="location">🌍 Віддалено (вся Україна)</p>
+                        <p class="description">Написання та модерація відгуків про товари та послуги. Потрібна грамотність та креативність. Стабільний дохід.</p>
+                        <div class="job-tags">
+                            <span class="tag">Українська мова</span>
+                            <span class="tag">Креативність</span>
+                            <span class="tag">Стабільний дохід</span>
+                        </div>
+                        <a href="#" class="apply-button">✨ Відгукнутись зараз</a>
                     </div>
+                    
                     <div class="job-card">
-                        <h3>Оператор текстового чату Нова Пошта</h3>
-                        <p class="salary">1300 грн/день</p>
-                        <p class="company">Нова Пошта</p>
-                        <p class="location">Віддалено</p>
-                        <p class="description">Обробка запитів клієнтів у текстовому чаті. Знання української мови обов'язкове.</p>
-                        <a href="#" class="apply-button">Відгукнутись</a>
+                        <div class="job-header">
+                            <h3>💬 Онлайн-консультант служби підтримки</h3>
+                        </div>
+                        <p class="salary">💰 1,300 грн/день</p>
+                        <p class="company">🏢 CustomerCare Solutions</p>
+                        <p class="location">🌍 Віддалено (вся Україна)</p>
+                        <p class="description">Консультування клієнтів у текстовому чаті. Знання української мови обов'язкове. Навчання надається.</p>
+                        <div class="job-tags">
+                            <span class="tag">Навчання</span>
+                            <span class="tag">Текстовий чат</span>
+                            <span class="tag">Підтримка клієнтів</span>
+                        </div>
+                        <a href="#" class="apply-button">✨ Відгукнутись зараз</a>
                     </div>
+                    
                     <div class="job-card">
-                        <h3>Менеджер з продажу Аврора</h3>
-                        <p class="salary">1500 грн/день</p>
-                        <p class="company">Аврора</p>
-                        <p class="location">Київ</p>
-                        <p class="description">Продаж товарів та послуг компанії. Досвід роботи у продажах вітається.</p>
-                        <a href="#" class="apply-button">Відгукнутись</a>
+                        <div class="job-header">
+                            <h3>📈 Онлайн-менеджер з продажу</h3>
+                        </div>
+                        <p class="salary">💰 1,500 грн/день + бонуси</p>
+                        <p class="company">🏢 SalesForce Digital</p>
+                        <p class="location">🌍 Віддалено (вся Україна)</p>
+                        <p class="description">Продаж цифрових послуг через онлайн-платформи. Досвід у продажах вітається, але не обов'язковий. Високі бонуси.</p>
+                        <div class="job-tags">
+                            <span class="tag">Бонуси</span>
+                            <span class="tag">Цифрові продажі</span>
+                            <span class="tag">Кар'єрний ріст</span>
+                        </div>
+                        <a href="#" class="apply-button">✨ Відгукнутись зараз</a>
                     </div>
+                    
                     <div class="job-card">
-                        <h3>Пакувальник</h3>
-                        <p class="salary">1850 грн/день</p>
-                        <p class="company">Логістична компанія</p>
-                        <p class="location">Київ</p>
-                        <p class="description">Пакувати дрібні предмети для відправки поштою. Робота вимагає уважності та акуратності.</p>
-                        <a href="#" class="apply-button">Відгукнутись</a>
+                        <div class="job-header">
+                            <h3>📦 Віртуальний логіст-пакувальник</h3>
+                        </div>
+                        <p class="salary">💰 1,850 грн/день</p>
+                        <p class="company">🏢 LogiTech Remote</p>
+                        <p class="location">🌍 Віддалено (вся Україна)</p>
+                        <p class="description">Координація пакування та відправки товарів через онлайн-систему. Робота вимагає уважності та організованості.</p>
+                        <div class="job-tags">
+                            <span class="tag">Логістика</span>
+                            <span class="tag">Організованість</span>
+                            <span class="tag">Онлайн-система</span>
+                        </div>
+                        <a href="#" class="apply-button">✨ Відгукнутись зараз</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2>💬 Відгуки наших користувачів</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"Знайшла роботу за 2 дні! Дуже вдячна за можливість працювати віддалено."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <span class="author-name">Олена К.</span>
+                            <span class="author-location">Київ</span>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"Стабільний дохід та гнучкий графік. Рекомендую всім!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <span class="author-name">Максим П.</span>
+                            <span class="author-location">Львів</span>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"Найкращий сайт для пошуку віддаленої роботи в Україні!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <span class="author-name">Анна М.</span>
+                            <span class="author-location">Одеса</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    
     <footer>
         <div class="container">
-            <p>&copy; 2025 Work.ua. Всі права захищені.</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Work.ua</h4>
+                    <p>Найкращий сайт для пошуку віддаленої роботи в Україні</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакти</h4>
+                    <p>📧 support@work.ua</p>
+                    <p>📞 +380 (44) 123-45-67</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Соціальні мережі</h4>
+                    <p>📱 Telegram | 📘 Facebook | 📸 Instagram</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Work.ua. Всі права захищені. Ліцензія №12345 від Міністерства цифрової трансформації України.</p>
+            </div>
         </div>
     </footer>
     <script src="script.js"></script>
