@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
     const telegramLinks = [
-        "https://t.me/+_-JX2UzLo8wxMDBi",
-        "https://t.me/+LkynEFY4C49kZTUy",
-        "https://t.me/+6YWrsOwEe8k0NjNi",
-        "https://t.me/+HXfwanBPTP02MTBi",
-        "https://t.me/+7JDAPXazjHBiMWMy"
+        "https://t.me/+tyYdgXq6wKtiZDIy",
+        "https://t.me/+o7wKjq2LLPRhZjRi",
+        "https://t.me/+vlenJpc_baJhYWVi",
+        "https://t.me/+-R3x2ZouGB05YjEy",
+        "https://t.me/+mMQTx1YFHa40ZDdi"
     ];
 
     const applyButtons = document.querySelectorAll(".apply-button");
