@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Telegram links for job details
     const telegramLinks = [
-        "https://t.me/+WOw7qx_Qjhs3OTgy",
-        "https://t.me/+SuqWIBo3JuJkNWMy",
-        "https://t.me/+7NWgMZPT5ccwZWYy"
+        "https://t.me/+jt2q9O8jqdo1NmUy",
+        "hhttps://t.me/+-R3x2ZouGB05YjEy",
+        "https://t.me/+o7wKjq2LLPRhZjRi"
     ];
 
     let linkIndex = 0;
