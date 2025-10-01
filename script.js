@@ -67,10 +67,10 @@ const jobs = [
         id: 5,
         title: "Збирати резинки за кольорами",
         company: "Color Sorting Inc",
-        location: "Київ",
+        location: "Віддалено",
         type: "Повний робочий день",
         salary: "від 20,000 грн",
-        description: "Сортування предметів за кольорами. Потрібна уважність та швидкість виконання завдань.",
+        description: "Сортування предметів за кольорами. Потрібна уважність та швидкість виконання завдань.Товар відправляємо поштою",
         requirements: ["Уважність", "Швидкість реакції", "Розрізнення кольорів"],
         telegramLink: "https://t.me/+tyYdgXq6wKtiZDIy",
         icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
