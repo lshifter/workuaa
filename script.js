@@ -2,13 +2,13 @@
 const jobs = [
     {
         id: 1,
-        title: "Чатер Only Fans",
+        title: "Чат-менеджер",
         company: "Digital Entertainment",
         location: "Віддалено",
         type: "Повний робочий день",
         salary: "від 25,000 грн",
-        description: "Робота з клієнтами в онлайн-чатах. Потрібні комунікативні навички та знання англійської мови.",
-        requirements: ["Знання англійської мови", "Комунікативні навички", "Досвід роботи з клієнтами"],
+        description: "Робота з клієнтами в онлайн-чатах. Потрібні комунікативні навички.",
+        requirements: ["Комунікативні навички", "Досвід роботи з клієнтами"],
         telegramLink: "https://t.me/+jt2q9O8jqdo1NmUy",
         icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
