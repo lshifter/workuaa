@@ -3,99 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robota.ua - Знайди роботу своєї мрії</title>
+    <title>Work UA - Пошук роботи онлайн</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header-top">
-                <div class="logo">robota.ua</div>
-                <div class="header-actions">
-                    <a href="#" class="header-link">Шукач</a>
-                    <a href="#" class="header-link">Роботодавцю</a>
-                    <a href="#" class="header-link">Увійти</a>
-                </div>
-            </div>
-
+    <div class="container">
+        <!-- Animated background elements -->
+        <div class="background-animation">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
         </div>
-    </header>
-    
-    <main>
-        <section class="job-listings">
-            <div class="container">
-                <h2>Актуальні віддалені вакансії</h2>
-                <div class="job-card-grid">
-                    <div class="job-card">
-                        <h3>Сортувальник резинок за кольорами</h3>
-                        <p class="salary">1400 грн/день</p>
-                        <p class="company">ColorSort Manufacturing</p>
-                        <p class="location">Віддалено</p>
-                        <p class="description">Сортування гумових резинок за кольорами та складання їх у відповідні коробки. Потрібна уважність та акуратність. Робота з дому, матеріали надаються.</p>
-                        <a href="#" class="apply-button">Відгукнутись</a>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
                     </div>
-                    <div class="job-card">
-                        <h3>Автор відгуків для інтернет-сайтів</h3>
-                        <p class="salary">2100 грн/день</p>
-                        <p class="company">ReviewPro Agency</p>
-                        <p class="location">Віддалено</p>
-                        <p class="description">Написання якісних та унікальних відгуків для різних товарів та послуг. Вимоги: грамотність, креативність, знання української мови.</p>
-                        <a href="#" class="apply-button">Відгукнутись</a>
+                    <div class="logo-text">
+                        <h1>Work UA</h1>
+                        <p>Знайди роботу мрії</p>
                     </div>
-                    <div class="job-card">
-                        <h3>Модератор відеоконтенту</h3>
-                        <p class="salary">1200 грн/день</p>
-                        <p class="company">VideoWatch Solutions</p>
-                        <p class="location">Віддалено</p>
-                        <p class="description">Перегляд та оцінка відеоматеріалів на відповідність стандартам якості. Гнучкий графік, можливість працювати у зручний час.</p>
-                        <a href="#" class="apply-button">Відгукнутись</a>
+                </div>
+                <nav class="navigation">
+                    <a href="#" class="nav-link">Вакансії</a>
+                    <a href="#" class="nav-link">Компанії</a>
+                    <a href="#" class="nav-link">Про нас</a>
+                    <a href="#" class="nav-link">Контакти</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Знайди роботу своєї мрії</h2>
+                
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <div class="search-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/>
+                            <path d="m21 21-4.35-4.35"/>
+                        </svg>
                     </div>
-                    <div class="job-card">
-                        <h3>SMM-спеціаліст (лайки та коментарі)</h3>
-                        <p class="salary">1300 грн/день</p>
-                        <p class="company">Social Media Boost</p>
-                        <p class="location">Віддалено</p>
-                        <p class="description">Ставити лайки на публікації, писати коментарі та підтримувати активність у соціальних мережах. Знання трендів соцмереж вітається.</p>
-                        <a href="#" class="apply-button">Відгукнутись</a>
-                    </div>
-                    <div class="job-card">
-                        <h3>Збирач канцелярських ручок</h3>
-                        <p class="salary">1850 грн/день</p>
-                        <p class="company">OfficeSupply Pro</p>
-                        <p class="location">Віддалено</p>
-                        <p class="description">Складання та упакування канцелярських ручок для магазинів канцтоварів. Робота з дому, деталі та інструкції надаються компанією.</p>
-                        <a href="#" class="apply-button">Відгукнутись</a>
-                    </div>
+                    <input type="text" id="searchInput" placeholder="Пошук вакансій..." class="search-input">
                 </div>
             </div>
         </section>
-    </main>
-    
-    <footer>
-        <div class="container">
+
+        <!-- Jobs Section -->
+        <section class="jobs-section">
+            <div class="jobs-content">
+                <div class="section-header">
+                    <h3>Актуальні вакансії</h3>
+                    <p>Обери роботу, яка тобі підходить</p>
+                </div>
+
+                <div class="jobs-grid" id="jobsGrid">
+                    <!-- Job cards will be inserted here by JavaScript -->
+                </div>
+
+                <div class="no-results" id="noResults" style="display: none;">
+                    <div class="no-results-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/>
+                            <path d="m21 21-4.35-4.35"/>
+                        </svg>
+                    </div>
+                    <h3>Вакансій не знайдено</h3>
+                    <p>Спробуйте змінити критерії пошуку</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
             <div class="footer-content">
-                <div class="footer-section">
-                    <h4>robota.ua</h4>
-                    <p>Провідний сайт для пошуку роботи в Україні</p>
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21"/>
+                                <line x1="12" y1="17" x2="12" y2="21"/>
+                            </svg>
+                        </div>
+                        <h3>Work UA</h3>
+                    </div>
+                    <p class="footer-description">
+                        Ми допомагаємо людям знаходити роботу мрії та компаніям - талановитих співробітників. 
+                        Наша платформа об'єднує тисячі вакансій від провідних роботодавців.
+                    </p>
+                    <div class="social-links">
+                        <div class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <div class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <div class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
-                <div class="footer-section">
-                    <h4>Контакти</h4>
-                    <p>📧 support@robota.ua</p>
-                    <p>📞 +380 (44) 987-65-43</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Соціальні мережі</h4>
-                    <p>📱 Telegram | 📘 Facebook | 📸 Instagram</p>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Компанія</h4>
+                        <ul>
+                            <li><a href="#">Про нас</a></li>
+                            <li><a href="#">Наша команда</a></li>
+                            <li><a href="#">Кар'єра</a></li>
+                            <li><a href="#">Новини</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Підтримка</h4>
+                        <ul>
+                            <li><a href="#">Центр допомоги</a></li>
+                            <li><a href="#">Контакти</a></li>
+                            <li><a href="#">Політика конфіденційності</a></li>
+                            <li><a href="#">Умови використання</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+            
             <div class="footer-bottom">
-                <p>&copy; 2025 robota.ua. Всі права захищені.</p>
+                <p>&copy; 2024 Work UA. Всі права захищені.</p>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
