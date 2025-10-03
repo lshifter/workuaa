@@ -87,18 +87,17 @@ const jobs = [
 ];
 
 // DOM elements
-let searchInput, jobsGrid, noResults;
-
+let jobsGrid, noResults;
 // Initialize the application
 document.addEventListener("DOMContentLoaded", function() {
     // Get DOM elements
-    searchInput = document.getElementById("searchInput");
+
     jobsGrid = document.getElementById("jobsGrid");
     noResults = document.getElementById("noResults");
     
     // Initialize
     renderJobs(jobs);
-    setupSearch();
+
     setupAnimations();
     setupSmoothScrolling();
     
@@ -173,37 +172,7 @@ function renderJobs(jobsToRender) {
     setupCardAnimations();
 }
 
-// Setup search functionality
-function setupSearch() {
-    if (!searchInput) return;
-    
-    searchInput.addEventListener("input", function(e) {
-        const searchTerm = e.target.value.toLowerCase().trim();
-        
-        if (searchTerm === "") {
-            renderJobs(jobs);
-            return;
-        }
-        
-        const filteredJobs = jobs.filter(job => 
-            job.title.toLowerCase().includes(searchTerm) ||
-            job.company.toLowerCase().includes(searchTerm) ||
-            job.description.toLowerCase().includes(searchTerm) ||
-            job.requirements.some(req => req.toLowerCase().includes(searchTerm))
-        );
-        
-        renderJobs(filteredJobs);
-    });
-    
-    // Clear search on Escape
-    searchInput.addEventListener("keydown", function(e) {
-        if (e.key === "Escape") {
-            e.target.value = "";
-            renderJobs(jobs);
-            e.target.blur();
-        }
-    });
-}
+
 
 // Apply to job function
 function applyToJob(telegramLink, event) {
@@ -240,7 +209,7 @@ function setupAnimations() {
     }, observerOptions);
     
     // Observe elements that need animation
-    const animatedElements = document.querySelectorAll(".job-card, .hero-title, .search-container");
+    const animatedElements = document.querySelectorAll(".job-card, .hero-title");
     animatedElements.forEach(element => {
         observer.observe(element);
     });
@@ -309,7 +278,6 @@ window.addEventListener("load", function() {
     
     // Animate hero elements
     const heroTitle = document.querySelector(".hero-title");
-    const searchContainer = document.querySelector(".search-container");
     
     if (heroTitle) {
         heroTitle.style.opacity = "0";
@@ -322,16 +290,7 @@ window.addEventListener("load", function() {
         }, 100);
     }
     
-    if (searchContainer) {
-        searchContainer.style.opacity = "0";
-        searchContainer.style.transform = "translateY(30px)";
-        
-        setTimeout(() => {
-            searchContainer.style.transition = "opacity 0.8s ease, transform 0.8s ease";
-            searchContainer.style.opacity = "1";
-            searchContainer.style.transform = "translateY(0)";
-        }, 300);
-    }
+
 });
 
 // Add error handling
@@ -351,3 +310,4 @@ document.addEventListener("click", function(e) {
         console.log("Navigation link clicked:", e.target.textContent);
     }
 });
+
