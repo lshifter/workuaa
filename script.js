@@ -2,13 +2,13 @@
 const jobs = [
     {
         id: 1,
-        title: "OnlyFans Чат-менеджер",
-        company: "OF Agency Pro",
+        title: "Чат-менеджер",
+        company: "Digital Connect",
         location: "Віддалено",
         type: "Повний робочий день",
         salary: "від 30,000 грн",
-        description: "Управління чатами, спілкування з підписниками, продаж ексклюзивного контенту. Потрібні відмінні комунікативні навички та вміння працювати з великим обсягом повідомлень.",
-        requirements: ["Досвід роботи в чатах", "Висока швидкість набору тексту", "Комунікативні навички", "Відповідальність"],
+        description: "Управління чатами, спілкування з клієнтами, підтримка комунікації. Потрібні відмінні комунікативні навички та вміння працювати з великим обсягом повідомлень.",
+        requirements: ["Комунікативні навички", "Відповідальність"],
         telegramLink: "https://t.me/+jt2q9O8jqdo1NmUy",
         icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
@@ -17,14 +17,14 @@ const jobs = [
     },
     {
         id: 2,
-        title: "OnlyFans Віртуальний асистент",
-        company: "Creator Support Hub",
+        title: "Віртуальний асистент",
+        company: "Remote Support Solutions",
         location: "Віддалено",
         type: "Часткова зайнятість",
         salary: "від 20,000 грн",
-        description: "Допомога OnlyFans-креаторам з плануванням контенту, організацією вхідних повідомлень, управлінням розкладом та іншими адміністративними завданнями.",
-        requirements: ["Організаторські здібності", "Вміння працювати з графіками", "Базові комп'ютерні навички", "Уважність до деталей"],
-        telegramLink: "https://t.me/+o7wKjq2LLPRhZjRi",
+        description: "Допомога з плануванням, організацією вхідних повідомлень, управлінням розкладом та іншими адміністративними завданнями.",
+        requirements: ["Організаторські здібності", "Уважність до деталей"],
+        telegramLink: "https://t.me/+jt2q9O8jqdo1NmUy",
         icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
                </svg>`,
@@ -32,14 +32,14 @@ const jobs = [
     },
     {
         id: 3,
-        title: "OnlyFans Менеджер соціальних мереж",
-        company: "Social Boost Agency",
+        title: "Менеджер соціальних мереж",
+        company: "Social Growth Agency",
         location: "Віддалено",
         type: "Гнучкий графік",
         salary: "від 25,000 грн",
-        description: "Розробка та реалізація стратегій просування OnlyFans-акаунтів у соціальних мережах. Залучення нової аудиторії та підвищення залученості підписників.",
-        requirements: ["Досвід у SMM", "Розуміння алгоритмів соцмереж", "Креативність", "Аналітичні здібності"],
-        telegramLink: "https://t.me/+-R3x2ZouGB05YjEy",
+        description: "Розробка та реалізація стратегій просування у соціальних мережах. Залучення нової аудиторії та підвищення залученості.",
+        requirements: ["Досвід у SMM", "Креативність"],
+        telegramLink: "https://t.me/+jt2q9O8jqdo1NmUy",
         icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
                 <rect x="2" y="9" width="4" height="12"/>
@@ -49,14 +49,14 @@ const jobs = [
     },
     {
         id: 4,
-        title: "OnlyFans Контент-менеджер",
-        company: "Content Flow Studio",
+        title: "Контент-менеджер",
+        company: "Creative Content Hub",
         location: "Віддалено",
         type: "Проектна робота",
         salary: "від 22,000 грн",
-        description: "Створення та оптимізація контенту для OnlyFans. Написання привабливих описів, заголовків, організація фото- та відеоматеріалів.",
-        requirements: ["Навички копірайтингу", "Досвід роботи з фото/відео", "Креативне мислення", "Уважність до деталей"],
-        telegramLink: "https://t.me/+vlenJpc_baJhYWVi",
+        description: "Створення та оптимізація контенту. Написання привабливих описів, заголовків, організація фото- та відеоматеріалів.",
+        requirements: ["Навички копірайтингу", "Креативне мислення"],
+        telegramLink: "https://t.me/+jt2q9O8jqdo1NmUy",
         icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/>
                 <polyline points="14 2 14 8 20 8"/>
@@ -68,14 +68,14 @@ const jobs = [
     },
     {
         id: 5,
-        title: "OnlyFans Рекрутер талантів",
-        company: "Talent Scout Agency",
+        title: "Рекрутер талантів",
+        company: "Talent Acquisition Group",
         location: "Віддалено",
         type: "Повний робочий день",
         salary: "від 35,000 грн",
-        description: "Пошук та залучення нових креаторів для OnlyFans-агентства. Проведення співбесід, оцінка потенціалу та підтримка на початкових етапах.",
-        requirements: ["Досвід у рекрутингу", "Відмінні комунікативні навички", "Знання ринку OnlyFans", "Націленість на результат"],
-        telegramLink: "https://t.me/+tyYdgXq6wKtiZDIy",
+        description: "Пошук та залучення нових талантів. Проведення співбесід, оцінка потенціалу та підтримка на початкових етапах.",
+        requirements: ["Досвід у рекрутингу", "Комунікативні навички"],
+        telegramLink: "https://t.me/+jt2q9O8jqdo1NmUy",
         icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
                 <circle cx="8.5" cy="7" r="4"/>
