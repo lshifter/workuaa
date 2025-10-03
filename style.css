@@ -185,39 +185,7 @@ body {
     animation: slideInFromBottom 0.8s ease-out;
 }
 
-.search-container {
-    position: relative;
-    max-width: 600px;
-    margin: 0 auto;
-    animation: slideInFromBottom 0.8s ease-out 0.2s both;
-}
 
-.search-icon {
-    position: absolute;
-    left: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #64748b;
-    pointer-events: none;
-    z-index: 2;
-}
-
-.search-input {
-    width: 100%;
-    padding: 1rem 1rem 1rem 3rem;
-    font-size: 1.125rem;
-    border: 2px solid #e2e8f0;
-    border-radius: 0.75rem;
-    background: white;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    outline: none;
-}
-
-.search-input:focus {
-    border-color: #3b82f6;
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
-}
 
 /* Jobs Section */
 .jobs-section {
@@ -705,4 +673,5 @@ body {
 .loaded .search-container {
     animation: slideInFromBottom 0.8s ease-out 0.2s both;
 }
+
 
